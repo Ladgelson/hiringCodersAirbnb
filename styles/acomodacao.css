@@ -1,0 +1,71 @@
+.acomodacao {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    box-shadow: 0 0 3px 0 rgba(0,0,0,0.2);
+    border-radius: 10px;
+}
+
+.img-card {
+    width: 330px;
+    height: 200px;
+    border-radius: 10px;
+}
+
+.info {
+    flex: 1;
+    flex-direction: column;
+    /* background-color: violet; */
+    padding: 0 10px 0 10px;
+} 
+
+.title-and-icon {
+    display: flex;
+    flex-direction: row;
+    align-items: baseline;
+    font-family: 'Jost', sans-serif;
+    /* background-color: tomato; */
+    font-size: 17px;
+}
+
+.align-heart {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    width: 20%;
+    margin: 10px 0 0 10px;
+    padding: 5px;
+    border-radius: 20px;
+    /* background-color: turquoise; */
+}
+
+.align-heart:hover {
+    background-color: lightgray;
+}
+
+.card-title {
+    font-family: sans-serif;
+}
+
+.love-icon {
+    height: 30px;
+    width: 30px;
+}
+
+.value {
+    height: 100px;
+    display: flex;
+    flex-direction: row-reverse;
+    align-content: flex-start;
+    align-items: flex-end;
+    /* background-color: teal; */
+}
+
+.value span {
+    font-size: 30px;
+    /* background-color: red; */
+}
+
+.value span strong {
+    font-size: 40px;
+}
