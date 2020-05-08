@@ -1,4 +1,5 @@
 <!DOCTYPE html>
+<meta charset="utf-8"/>
 <html>
     <head>
         <title>Airbnb</title>
@@ -13,28 +14,15 @@
                 <a href="file:/home/micaias/codes/vtex/hiringCodersAirbnb/index.html#">
                     <img class="initial-icon" src="img/logo-airbnb.png"/>
                 </a>
-            </nav>
-            <div class="row">
-                <div class="col-md-7">
-                    <div class="acomodacao">
-                        <img class="img-card" src="https://a0.muscache.com/im/pictures/e6c4b347-49c7-4840-8c00-df36a2a273da.jpg?aki_policy=x_large">
-                        <div class="info">
-                            <div class="title-and-icon">
-                                <div class="card-title">
-                                    <strong>Apartment in Son Parc, wonderful views</strong>
-                                </div>
-                                <div class="align-heart">
-                                    <img class="love-icon" src="img/love-and-romance.png">
-                                </div>
-                            </div>
-                            <div><span>Apartamento</span></div>
-                            <div class="value">
-                                <span> <strong>R$433</strong>/noite</span>
-                            </div>
-                        </div>
-                    </div>
+                <div class="input-nav">
+                    <form class="form-inline my-2 my-lg-0">
+                        <input class="form-control mr-sm-2" type="search" placeholder="Locailização" aria-label="Search">
+                        <button class="btn btn-danger my-2 my-sm-0" type="submit">Buscar</button>
+                    </form>
                 </div>
-            </div>
+            </nav>
+            <div id="items"></div>
+            <div id="pagination"></div>
         </div>
     </body>
     <script src="scripts/pagination.js"></script>
