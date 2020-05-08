@@ -11,13 +11,17 @@
     <body>
         <div class="container-fluid">
             <nav class="navbar navbar-expand-lg navbar-light bg-white">
-                <a href="file:/home/micaias/codes/vtex/hiringCodersAirbnb/index.html#">
+                <div style="cursor: pointer;" onclick="reset()">
                     <img class="initial-icon" src="img/logo-airbnb.png"/>
-                </a>
+                </div>
                 <div class="input-nav">
+                    <div class="likeds-nav">
+                        <img src="img/love-and-romance-fill.png" onclick="listFavorites()">
+                        <strong>Meus Favoritos</strong>
+                    </div>
                     <form class="form-inline my-2 my-lg-0">
-                        <input class="form-control mr-sm-2" type="search" placeholder="Locailização" aria-label="Search">
-                        <button class="btn btn-danger my-2 my-sm-0" type="submit">Buscar</button>
+                        <input id="localizacao"" class="form-control mr-sm-2" type="search" placeholder="Locailização" aria-label="Search">
+                        <button class="btn btn-danger" type="button" onclick="buscarLocalizacao()">Buscar</button>
                     </form>
                 </div>
             </nav>

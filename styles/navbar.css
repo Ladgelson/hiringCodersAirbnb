@@ -10,3 +10,28 @@
     align-items: flex-end;
     justify-content: flex-end;
 }
+
+.likeds-nav {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    align-content: center;
+    justify-content: center;
+    margin-right: 20px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.likeds-nav:hover {
+    background-color: lightgray;
+}
+
+.likeds-nav img {
+    width: 30px;
+    height: 30px;
+}
+
+.likeds-nav strong {
+    font-size: 10px;
+    color: black;
+}
